@@ -1,0 +1,381 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Header styles */
+.header {
+    background-image: url('images/header-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Portfolio section styles */
+.portfolio {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+
+.portfolio h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 20px 0;
+}
+
+.card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    max-width: 220px;
+    text-align: center;
+    background-color: #dfdfdf;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+/* Video card */
+.video-card {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Article section styles */
+.article {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
+.article h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.article h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.article p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header {
+        padding: 40px 0;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .video-card {
+        width: 100%;
+    }
+}
+/* ... your existing CSS ... */
+
+/* ... your existing CSS ... */
+
+/* About Section styles */
+.about {
+    background-color: #dadada;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between; /* Separate text and image */
+    align-items: center;
+    flex-wrap: wrap-reverse; /* Reverse the order for smaller screens */
+}
+
+.about-text {
+    flex-basis: 60%; /* Adjust the width as needed */
+    padding-right: 20px;
+}
+
+.about-image {
+    flex-basis: 35%; /* Adjust the width as needed */
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 50%; /* Create a circular profile photo */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .about-content {
+        flex-direction: column-reverse; /* Stack on smaller screens */
+    }
+
+    .about-text {
+        flex-basis: 100%;
+        padding-right: 0;
+    }
+
+    .about-image {
+        flex-basis: 100%;
+        text-align: center;
+        margin-top: 20px; /* Add space between text and image on smaller screens */
+    }
+}
+/* ... your existing CSS ... */
+
+/* Contact Us Section styles */
+.contact {
+    background-color: #000000;
+    padding: 40px 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse; /* Reverse the order for smaller screens */
+}
+
+.contact-form {
+    flex-basis: 60%; /* Adjust the width as needed */
+}
+
+.contact-info {
+    flex-basis: 35%; /* Adjust the width as needed */
+    text-align: center;
+}
+
+.contact-form h2,
+.contact-info h3 {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Contact information styles */
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+/* ... your existing CSS ... */
+
+/* Services Section styles */
+.services {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 40px;
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(161, 0, 0);
+}
+
+.service-icon {
+    font-size: 36px;
+    margin-right: 20px;
+}
+
+.service-details {
+    flex: 1;
+}
+
+.service-details h3 {
+    margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .service-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-icon {
+        margin: 0;
+    }
+}
