@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+    <style>
+        /* Additional inline styles specific to this page can go here */
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#service">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>Welcome to Our Photography World</h1>
+            <p>Capturing Moments, Creating Memories</p>
+            <a href="#portfolio" class="btn">View Portfolio</a>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="card-container">
+                <!-- Image Cards -->
+                <div class="card">
+                    <img src="images/photo2.jpeg" alt="Photo 1">
+                    <h3>Event Photography</h3>
+                    <p>Capturing special moments at events.</p>
+                </div>
+                <div class="card">
+                    <img src="images/photo1.jpg" alt="Photo 2">
+                    <h3>Portrait Photography</h3>
+                    <p>Bringing out the best in people.</p>
+                </div>
+                <div class="card">
+                    <img src="images/photo4.jpeg" alt="Photo 1">
+                    <h3>Event Photography</h3>
+                    <p>Capturing special moments at events.</p>
+                </div>
+                <div class="card">
+                    <img src="images/photo3.jpg" alt="Photo 2">
+                    <h3>Portrait Photography</h3>
+                    <p>Bringing out the best in people.</p>
+                </div>
+                <!-- Add more image cards as needed -->
+
+                <!-- Video Embed -->
+                <div class="card video-card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Dv7cHLdvMIg" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>Welcome to our photography world! We are a passionate team of photographers dedicated to capturing moments and creating lasting memories for our clients.</p>
+
+                <!-- Add more text content here -->
+
+                <p>Thank you for considering us as your photography partner. We look forward to working with you and helping you create memories that will last a lifetime.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/about.jpeg" alt="Photographer">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Article Section -->
+    <section class="article">
+        <div class="container">
+            <article>
+                <h2>Latest News</h2>
+                <h3>Photography Tips and Tricks</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices metus nec dolor interdum varius.</p>
+                <a href="#" class="btn">Read More</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Us Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="contact-content">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><i class="fa fa-map-marker"></i> 13/22 Einstein, Durgapur, India</li>
+                    <li><i class="fa fa-phone"></i> (+91) 8001228891 / 8350016287</li>
+                    <li><i class="fa fa-envelope"></i> akashkar.dgp@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="service" class="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="fa fa-camera"></i>
+            </div>
+            <div class="service-details">
+                <h3>Event Photography</h3>
+                <p>Capturing the joy and excitement of special events, from weddings to corporate gatherings.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="fa fa-users"></i>
+            </div>
+            <div class="service-details">
+                <h3>Portrait Photography</h3>
+                <p>Bringing out the best in individuals with stunning portrait photography.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="service-icon">
+                <i class="fa fa-building"></i>
+            </div>
+            <div class="service-details">
+                <h3>Real Estate Photography</h3>
+                <p>Showcasing properties with high-quality real estate photography and videography.</p>
+            </div>
+        </div>
+        <!-- Add more service cards as needed -->
+    </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Your Photography Studio</p>
+        </div>
+    </footer>
+
+    <!-- Optional: JavaScript for interactivity -->
+    <!-- Add this script tag at the end of your HTML body, just before </body> -->
+<script>
+    // Function to handle smooth scrolling when clicking on navbar links
+    function scrollToSection(sectionId) {
+        const section = document.querySelector(sectionId);
+        if (section) {
+            window.scrollTo({
+                top: section.offsetTop - 50, // Adjust scroll position for navbar height
+                behavior: 'smooth'
+            });
+        }
+    }
+
+    // Add event listeners for navbar links
+    const navbarLinks = document.querySelectorAll('.navbar a');
+    navbarLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const sectionId = this.getAttribute('href');
+            scrollToSection(sectionId);
+        });
+    });
+
+    // Add event listener for "View Portfolio" button in the header
+    const viewPortfolioBtn = document.querySelector('.header .btn');
+    viewPortfolioBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        const sectionId = this.getAttribute('href');
+        scrollToSection(sectionId);
+    });
+</script>
+
+
+</body>
+</html>
